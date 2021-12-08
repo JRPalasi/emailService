@@ -3,7 +3,7 @@ package com.adidas.email.dto;
 public class Email {
 
     private String to;
-    private String Name;
+    private String name;
 
     public String getTo() {
         return to;
@@ -14,10 +14,10 @@ public class Email {
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 }
